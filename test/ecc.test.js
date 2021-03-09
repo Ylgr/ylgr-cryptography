@@ -1,13 +1,14 @@
 const { ecc, utils } = require('../src')
 
-const configKey = ecc.generateKey()
-const pub = ecc.toPublicKey(configKey)
+const configKey = ecc.newKeys()
+console.log('configKey: ', configKey)
+const pub = ecc.toPublicKey(configKey.privateKey)
 console.log(pub)
 console.log(ecc.toAddress(pub))
 
-console.log(ecc.newKeyPair())
-console.log(ecc.newKeyPairWithAddress())
+// console.log(ecc.newKeyPair())
+// console.log(ecc.newKeyPairWithAddress())
 
-ecc.validateAddress('tea1mxcz7pzndp69qz5cfx8mh4gw4v87unmxe5wzuc')
+ecc.validateAddress('ylgr0ku7vpl3xv38yf59w7hdc2u8rd2ttw04kyen2g8')
 
 console.log(utils.newAccount())
