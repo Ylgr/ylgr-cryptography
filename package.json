@@ -1,6 +1,6 @@
 {
   "name": "@ylgr/ylgr-cryptography",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Common functions for Icetea core and Icetea web3.",
   "sideEffects": false,
   "main": "src/index.js",

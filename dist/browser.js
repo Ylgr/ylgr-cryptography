@@ -1,4 +1,4 @@
-/*! @ylgr/ylgr-cryptography v0.0.1 */
+/*! @ylgr/ylgr-cryptography v0.0.2 */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -21936,7 +21936,7 @@ var _require$AccountType = __webpack_require__(/*! ./enum */ "./src/enum.js").Ac
     REGULAR_ACCOUNT = _require$AccountType.REGULAR_ACCOUNT,
     BANK_ACCOUNT = _require$AccountType.BANK_ACCOUNT;
 
-var PREFIX_MAINNET = 'ylgr';
+var PREFIX_MAINNET = 'ymain';
 var PREFIX_TESTNET = 'ylgr';
 
 function generateKeyBuffer() {

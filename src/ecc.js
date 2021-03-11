@@ -16,8 +16,8 @@ const {
 
 const { REGULAR_ACCOUNT, BANK_ACCOUNT } = require('./enum').AccountType
 
-const PREFIX_MAINNET = 'ymain'
-const PREFIX_TESTNET = 'ylgr'
+const PREFIX_MAINNET = 'mttc'
+const PREFIX_TESTNET = 'tttc'
 
 function generateKeyBuffer () {
   let privKey
